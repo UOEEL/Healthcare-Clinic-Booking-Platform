@@ -1,0 +1,451 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Outward issue link (Relates),Custom field (Actual),Custom field (Actual Result),Custom field (Actual Result),Custom field (Actual Result),Custom field (Actual Result),Custom field (Actual result),Custom field (Actual result ),Custom field (Attachment link),Custom field (Development),Custom field (ENV),Custom field (Expected),Custom field (Expected Result),Custom field (Expected Result),Custom field (Expected Result),Custom field (Expected Result),Custom field (Expected Result),Custom field (Expected Result ),Custom field (Expected result),Custom field (Expected result),Custom field (Issue color),Custom field (Pre conditions),Custom field (Pre-condition),Custom field (Precondition),Custom field (Priority),Custom field (Priority),Custom field (Priority),Custom field (Priority),Custom field (Priority),Custom field (Priority),Custom field (Priority ),Custom field (Rank),Custom field (Severity),Custom field (Severity),Custom field (Severity),Custom field (Severity),Custom field (Severity),Custom field (Severity),Custom field (Severity),Sprint,Custom field (Start date),Custom field (State),Custom field (State),Custom field (State),Custom field (State),Custom field (State),Custom field (State),Custom field (Status),Custom field (Status),Custom field (Status),Custom field (Status),Custom field (Status),Custom field (Status),Custom field (Status ),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps),Custom field (Steps ),Custom field (Story point estimate),Custom field (Team),Custom field (Test Data),Custom field (Vulnerability),Custom field (Vulnerability),Custom field (pre coditions),Custom field (pre coditions),Custom field (pre condition),Custom field (precondition),Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+Verify that if the user is not  Logged-in patient can not  select a time slot and book it .,HEAL-31,10824,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:25 PM,11/Sep/26 9:22 AM,10/Sep/26 4:36 PM,10/Sep/26 4:39 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,User can not  select a time slot and book it .,,,,,,,,,,,,,,0|i001uv:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# enter to profile of the doctor 
+# try to select an available time slot and book it ",,,,,,,"open website but do not enter valid  data in log in page  
+
+go to search 
+
+write name of the doctor 
+
+or filter doctors by specialty, area, and price range ",,,"11/Sep/26 9:17 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",,,,Done,10/Sep/26 4:39 PM
+Verify that the user can see the name of the doctor in profile of the doctor .,HEAL-34,10827,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:31 PM,14/Sep/26 4:59 PM,10/Sep/26 4:40 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the name of doctor appears in the profile ,,,,,,,,,,,,,,0|i001vj:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,# open profile of the doctor ,,,,,,,"open log in page and enter valid data in all fields 
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:18 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that  that the user can see photo of the doctor in profile of the doctor .,HEAL-38,10832,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:33 PM,14/Sep/26 4:59 PM,10/Sep/26 5:33 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,HEAL-206,,,,,,,,,,,,,,,,,the photo of the doctor appears in profile,,,,,,,,,,,,,,0|i001wn:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,# open profile of the doctor,,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:18 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that the user can see Specialty  of the doctor in profile of the doctor .,HEAL-39,10833,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:36 PM,14/Sep/26 4:59 PM,10/Sep/26 5:32 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the Specialty  of doctor appears in the profile,,,,,,,,,,,,,,0|i001wv:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,# open profile of the doctor,,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:18 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that the user can see the consultation fee (EGP) of the doctor in profile of the doctor ,HEAL-40,10834,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:37 PM,14/Sep/26 4:59 PM,10/Sep/26 5:42 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,HEAL-210,,,,,,,,,,,,,,,,,The doctor's consultation fee appears in the profile,,,,,,,,,,,,,,0|i001x3:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,# open profile of the doctor,,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:19 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that the user can see the address of the doctor in profile of the doctor .,HEAL-41,10836,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:39 PM,14/Sep/26 4:59 PM,10/Sep/26 5:32 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the address of doctor appears in the profile,,,,,,,,,,,,,,0|i001xj:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,# open profile of the doctor,,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:19 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that the user can see the Rating (from 1 to 5 stars ) of the doctor in profile of the doctor .,HEAL-42,10837,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,07/Sep/26 6:41 PM,14/Sep/26 4:59 PM,10/Sep/26 5:27 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the  Rating (from 1 to 5 stars ) of doctor appears in the profile,,,,,,,,,,,,,,0|i001xr:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,# open profile of the doctor,,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:19 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+verify that the booked slot can not be selected ,HEAL-47,10886,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 2:55 AM,14/Sep/26 4:59 PM,10/Sep/26 4:46 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,The user can not select a booked slot ,,,,,,,,,,,,,,0|i0027b:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# try to select any any booked slot ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:20 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+verify that the past time slots of the current day are disabled ,HEAL-48,10887,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 3:05 AM,14/Sep/26 4:59 PM,10/Sep/26 4:46 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the past time slots of the current day are disabled ,,,,,,,,,,,,,,0|i0027j:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# View the today schedule",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:24 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that There are available slots for the up coming 7 calendar  days only  ,HEAL-49,10889,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 3:10 AM,14/Sep/26 4:59 PM,10/Sep/26 4:46 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,appear the up coming 7 calendar days only on the schedule ,,,,,,,,,,,,,,0|i0027z:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# View the schedule grid",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:24 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+"verify that the Slots are grouped by Date and Time (e.g., Monday, Oct 12 - 05:00 PM)",HEAL-50,10900,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 3:18 AM,14/Sep/26 4:59 PM,10/Sep/26 4:47 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,User can see Date and Time of his slot ,,,,,,,,,,,,,,0|i0029b:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# View the schedule grid
+# select an available and suitable  slot ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:25 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+"Verify that the previously booked slots marked as ""Booked"" ",HEAL-51,10901,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 3:23 AM,14/Sep/26 4:59 PM,10/Sep/26 4:47 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,"the previously booked slots marked as ""Booked"" ",,,,,,,,,,,,,,0|i0029j:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# View the previously booked on a schedule grid",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:27 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that past dates and past time slots must be disabled  ,HEAL-52,10902,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 3:30 AM,14/Sep/26 4:59 PM,10/Sep/26 4:48 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,past dates and past time slots are  disabled  ,,,,,,,,,,,,,,0|i0029r:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# view the schedule grid ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:27 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+Verify that The rating mustnt be less than 1 ,HEAL-68,11068,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 6:48 PM,14/Sep/26 4:59 PM,10/Sep/26 4:48 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,The rating mustnt be less than 1 ,,,,,,,,,,,,,,0|i002wf:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# see the rating of the doctor ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:28 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+verify that the rating mustnt be more than 5 ,HEAL-69,11070,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 6:50 PM,14/Sep/26 4:59 PM,10/Sep/26 4:49 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,the rating mustnt be more than 5 ,,,,,,,,,,,,,,0|i002wv:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# see the rating of the doctor",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:28 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+"verify that Appear a message when doctor has not available slots ""No available slots for the next 7 days""",HEAL-84,11108,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 7:35 PM,14/Sep/26 4:59 PM,10/Sep/26 4:49 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,Appear message “No available slots for the next 7 days“.,,,,,,,,,,,,,,0|i00353:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# see the schedule of the doctor 
+# no available slots appear on schedule ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:28 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.                         Steps: This section should include every action performed from opening the website onward, in order, until you reach the point of verifying the result — not just the last couple of actions.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+"Verify that When doctor has not available slots appear ""Notify me when new slots are added"" for user and he can select it .",HEAL-88,11113,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,08/Sep/26 7:38 PM,14/Sep/26 4:59 PM,10/Sep/26 4:49 PM,14/Sep/26 4:59 PM,,0,,,omarmostafa1777,Uoeel Ayman,712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-2,,,,,,,,,,,,,,,,,,"appear ""Notify me when new slots are added"" for user and he can select it .",,,,,,,,,,,,,,0|i00367:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# see the schedule of the doctor
+# no available slots appear on schedule",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,"11/Sep/26 9:29 AM;712020:d45e2daf-2df4-4aad-930a-6dbd7baebc90;Preconditions: This section contains actions which should be in the Steps section, not Preconditions. A Precondition should only describe a state that exists before test execution starts, not an action.",11447,HEAL-164,DOCTOR SEARCH & DISCOVERY,Done,14/Sep/26 4:59 PM
+verify that a logged-in patient only can enter patient details.,HEAL-98,11167,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,09/Sep/26 2:58 AM,11/Sep/26 4:12 PM,10/Sep/26 4:50 PM,11/Sep/26 4:12 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,If user is not logged-in patient can not enter patient details.,,,,,,,,,,,,,,0|i003e7:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# open the schedule and select available and suitable slot 
+# enter valid data in all fields 
+# submit ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:11 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:12 PM
+verify that a logged-in patient only can enter promo code. ,HEAL-99,11168,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,09/Sep/26 3:03 AM,11/Sep/26 4:12 PM,10/Sep/26 4:50 PM,11/Sep/26 4:12 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,If user is not logged-in patient can not enter promo code ,,,,,,,,,,,,,,0|i003ef:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# enter valid data in all fields
+# submit",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:11 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:12 PM
+"Verify that the Patient section provides two booking options “Booking for Myself” vs “Booking for Someone Else” and defaults to ""Booking for myself",HEAL-100,11170,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,09/Sep/26 3:14 AM,11/Sep/26 4:12 PM,10/Sep/26 4:50 PM,11/Sep/26 4:12 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,"two booking options appear  “Booking for Myself” vs “Booking for Someone Else” and defaults to ""Booking for myself",,,,,,,,,,,,,,0|i003en:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:12 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:12 PM
+"Verify that the name field is displayed when the user selects ""Booking for someone else"" and system accept it , if the name is valid, and create the booking under that guest name rather than the account holder's name.",HEAL-101,11174,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,09/Sep/26 3:22 AM,11/Sep/26 4:16 PM,10/Sep/26 5:14 PM,11/Sep/26 4:16 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,HEAL-209,,,,,,,,,,,,,,,,,"Show the name field. When the user enters a valid name, create the booking under that guest name rather than the account holder's name.",,,,,,,,,,,,,,0|i003ev:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor 
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter valid data in all fields
+# submit ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:16 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:16 PM
+"Verify that the phone number field is displayed when the user selects ""Booking for someone else"" and the system accepts it if the phone number is valid.",HEAL-102,11175,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,09/Sep/26 3:25 AM,11/Sep/26 4:17 PM,10/Sep/26 5:14 PM,11/Sep/26 4:17 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,"The phone number field appears, and when the user enters a valid phone number, the system accepts it.",,,,,,,,,,,,,,0|i003f3:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter valid data in all fields
+# submit",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:16 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:17 PM
+Verify that user can not enter name of another patient less than 3 ,HEAL-144,11398,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 1:54 AM,11/Sep/26 4:17 PM,10/Sep/26 6:58 PM,11/Sep/26 4:17 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,," user can not enter name of another patient less than 3 and appear message ""Name must be between 3 and 50 characters “",,,,,,,,,,,,,,0|i0042f:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name “uo“
+# enter valid data in all fields 
+# click on book ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:17 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:17 PM
+Verify that user can not enter name of another patient  more than 50,HEAL-145,11400,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 1:58 AM,11/Sep/26 4:17 PM,10/Sep/26 6:58 PM,11/Sep/26 4:17 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,," user can not enter name of another patient more than 50 and appear message ""Name must be between 3 and 50 characters “",,,,,,,,,,,,,,0|i0042v:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name more than 50 char
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:17 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:17 PM
+Verify that user can enter name of another patient equal 3 char,HEAL-146,11401,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:00 AM,11/Sep/26 4:18 PM,10/Sep/26 7:04 PM,11/Sep/26 4:18 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,user can enter name of another patient equal 3 char and system accept ,,,,,,,,,,,,,,0|i00433:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name “uoe“
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:18 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:18 PM
+Verify that user can not enter name of another patient more than 3 char,HEAL-147,11404,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:02 AM,11/Sep/26 4:18 PM,10/Sep/26 7:05 PM,11/Sep/26 4:18 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,user can enter name of another patient equal 4 char and system accept,,,,,,,,,,,,,,0|i0043j:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name “uoee“
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:18 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:18 PM
+Verify that user can not enter name of another patient equal 49 chars,HEAL-148,11405,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:04 AM,11/Sep/26 4:18 PM,10/Sep/26 7:05 PM,11/Sep/26 4:18 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,user can enter name of another patient  and system accept,,,,,,,,,,,,,,0|i0043r:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name with 49 chars
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:18 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:18 PM
+Verify that user can enter name of another patient equal 50 chars,HEAL-149,11407,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:06 AM,11/Sep/26 4:19 PM,10/Sep/26 7:06 PM,11/Sep/26 4:19 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,user can enter name of another patient  and system accept,,,,,,,,,,,,,,0|i00447:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name with 50 chars
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:19 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:19 PM
+Verify that user can not enter name of another patient with images ,HEAL-150,11408,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:10 AM,11/Sep/26 4:19 PM,10/Sep/26 7:06 PM,11/Sep/26 4:19 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,"user can not enter name of another patient  and appear message ""Name must be between 3 and 50 characters “",,,,,,,,,,,,,,0|i0044f:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name with images 
+# enter valid data in all fields 
+# click on book ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:19 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:19 PM
+Verify that user can enter valid number ,HEAL-151,11410,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:13 AM,11/Sep/26 4:19 PM,10/Sep/26 7:09 PM,11/Sep/26 4:19 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system accept the number ,,,,,,,,,,,,,,0|i0044v:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter valid number 
+# enter valid data in all fields 
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:19 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:19 PM
+verify that user can not enter number less than 11 numbers,HEAL-152,11411,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:16 AM,11/Sep/26 4:20 PM,10/Sep/26 7:09 PM,11/Sep/26 4:19 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system reject the number and appear message “Please enter a valid 11-digit Egyptian phone number“,,,,,,,,,,,,,,0|i00453:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter number less than 11 numbers “0127225341”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:20 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:19 PM
+verify that user can not enter number more  than 11 numbers,HEAL-153,11412,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:17 AM,11/Sep/26 4:20 PM,10/Sep/26 7:10 PM,11/Sep/26 4:20 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system reject the number and appear message “Please enter a valid 11-digit Egyptian phone number“,,,,,,,,,,,,,,0|i0045b:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter number less than 11 numbers “012722534122”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:20 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:20 PM
+verify that user can not enter number dose not start with (EG format),HEAL-154,11413,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:20 AM,11/Sep/26 4:20 PM,10/Sep/26 7:11 PM,11/Sep/26 4:20 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system reject the number and appear message “Please enter a valid 11-digit Egyptian phone number“,,,,,,,,,,,,,,0|i0045j:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter number less than 11 numbers “0227225341”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:20 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:20 PM
+verify that user can not enter promo code with spaces for discount ,HEAL-155,11415,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:25 AM,11/Sep/26 4:21 PM,10/Sep/26 7:12 PM,11/Sep/26 4:21 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system reject the number and appear message “Invalid or expired promo code.”,,,,,,,,,,,,,,0|i0045r:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code with spaces “BEST QA”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:21 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:21 PM
+verify that user can not enter promo code with special characters  for discount,HEAL-156,11416,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:26 AM,11/Sep/26 4:21 PM,10/Sep/26 7:13 PM,11/Sep/26 4:21 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,system reject the number and appear message “Invalid or expired promo code.”,,,,,,,,,,,,,,0|i0045z:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code with spaces “BEST%$QA”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:21 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:21 PM
+verify that if user enters lowercase letters the system converts them to uppercase ,HEAL-157,11418,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:33 AM,11/Sep/26 4:22 PM,10/Sep/26 7:13 PM,11/Sep/26 4:22 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,System accept the promo code ,,,,,,,,,,,,,,0|i00467:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter valid  promo code with spaces “best-QA”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:21 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:22 PM
+Verify that the system trims leading and trailing spaces from the Promo Code and accepts the code successfully.,HEAL-158,11419,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 2:39 AM,11/Sep/26 4:23 PM,10/Sep/26 7:19 PM,11/Sep/26 4:22 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,System accept the promo code and remove the spaces before or after promo code  ,,,,,,,,,,,,,,0|i0046f:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code with spaces “ BEST-QA ”
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:23 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:22 PM
+Verify that when user enter SAVE10 and 10% is deducted from the total consultation price.,HEAL-159,11429,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 3:09 AM,11/Sep/26 4:25 PM,10/Sep/26 7:28 PM,11/Sep/26 4:24 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,HEAL-213,,,,,,,,,,,,,,,,,System accept the promo code and 10% is deducted from the total consultation price,,,,,,,,,,,,,,0|i0047j:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code “SAVE10“
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:25 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:24 PM
+Verify that when user enter FLAT50 and 50 EGP is deducted from the total consultation price.,HEAL-160,11431,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 3:13 AM,11/Sep/26 4:22 PM,10/Sep/26 7:29 PM,11/Sep/26 4:22 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,System accept the promo code and 50 EGP is deducted from the total consultation price,,,,,,,,,,,,,,0|i0047z:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code “FLAT50“
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:22 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:22 PM
+"Verify that when user enter BEST-QA and 100 % is deducted from the total consultation price and appear message  “Discount Applied! You are officially the best QA team."" .",HEAL-161,11433,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 3:20 AM,11/Sep/26 4:23 PM,10/Sep/26 7:40 PM,11/Sep/26 4:23 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,HEAL-214,,,,,,,,,,,,,,,,,"System accept the promo code and  100 % is deducted from the total consultation price and appear message  “Discount Applied! You are officially the best QA team."" .",,,,,,,,,,,,,,0|i0048f:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code “BEST-QA“
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:23 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:23 PM
+Verify that the user cannot use the same Promo Code more than once.,HEAL-162,11435,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 3:24 AM,11/Sep/26 4:23 PM,10/Sep/26 7:40 PM,11/Sep/26 4:23 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,"*The system rejects the Promo Code and displays the error message: ""Invalid or expired promo code.""*",,,,,,,,,,,,,,0|i0048v:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code “BEST-QA“ again after use it 
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:23 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:23 PM
+Verify that The final price after applying the discount must not be less than 0 .,HEAL-163,11436,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 3:27 AM,11/Sep/26 4:24 PM,10/Sep/26 7:41 PM,11/Sep/26 4:24 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,,,,,,,,,,,,,,,,,,"System accept the promo code and  100 % is deducted from the total consultation price and appear message  “Discount Applied! You are officially the best QA team."" .
+
+and must not be less than 0 .",,,,,,,,,,,,,,0|i00493:,,,,,,,,HEAL Sprint 1,,,,,Pass,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter promo code “BEST-QA“
+# enter valid data in all fields
+# click on book now",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:24 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:24 PM
+"Verify that When user choose a slot and he cancels it , we can choose the slot again ",HEAL-207,11607,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 5:03 PM,11/Sep/26 4:24 PM,10/Sep/26 5:10 PM,11/Sep/26 4:24 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,HEAL-208,,,,,,,,,,,,,,,,,"we can choose the slot again , and book it ",,,,,,,,,,,,,,0|i004pr:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter valid data in all fields
+# click on book
+# cancel the slot 
+# choose the slot again ",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:24 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:24 PM
+Verify that user can not enter name of another patient less than 3 chars with space ,HEAL-211,11626,TestCase,Done,HEAL,HealthCare1,software,Ahmed Sayed,712020:10df32f7-cb91-4cbe-a23f-5f9311a3f28d,,Medium,Done,,,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,Uoeel Ayman,712020:58d35578-3dc6-4f80-8289-f949a413eba2,10/Sep/26 6:53 PM,11/Sep/26 4:24 PM,10/Sep/26 6:54 PM,11/Sep/26 4:24 PM,,0,,,Mo Hany,Uoeel Ayman,712020:21007d74-49a5-4565-873a-87e47d9dfe4f,712020:58d35578-3dc6-4f80-8289-f949a413eba2,,,,,,,,,HEAL-6,HEAL-212,,,,,,,,,,,,,,,,," user can not enter name of another patient less than 3 chars and space  and appear message ""Name must be between 3 and 50 characters “",,,,,,,,,,,,,,0|i004tz:,,,,,,,,HEAL Sprint 1,,,,,Fail,,,,,,,,,Review,,,,,,,,,"# open profile of the doctor
+# open the schedule and select available and suitable slot
+# select  ""Booking for someone else"".
+# enter name “u o“
+# enter valid data in all fields
+# click on book",,,,,,,"open log in page and enter valid data in all fields
+
+go to search
+
+write name of the doctor
+
+or filter doctors by specialty, area, and price range",,,11/Sep/26 4:24 PM;712020:21007d74-49a5-4565-873a-87e47d9dfe4f;No issue found,,,,Done,11/Sep/26 4:24 PM
